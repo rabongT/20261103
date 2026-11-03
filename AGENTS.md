@@ -2,6 +2,9 @@
 
 이 프로젝트는 Vanilla JavaScript와 Vite를 사용하며 GitHub와 Netlify를 통해 배포합니다. 코드 작업을 시작하기 전에 다음 규칙을 확인하세요.
 
+- 날짜별 프로젝트 폴더는 각각 독립된 Git 저장소와 GitHub 저장소로 관리합니다. 날짜별 폴더를 상위의 공용 `Github` 저장소에 프로젝트 하위 폴더로 게시하지 않습니다.
+- 새 날짜별 프로젝트를 만들 때는 해당 폴더를 저장소 루트로 사용하고, 같은 날짜 이름의 GitHub 저장소에 연결합니다.
+
 - HTML, CSS, JavaScript는 각각 별도 파일에 작성합니다.
 - `index.html`은 프로젝트 루트에 둡니다. 애플리케이션 CSS와 JavaScript 파일은 `src` 폴더에 둡니다. `vite.config.js`를 포함한 설정 파일은 프로젝트 루트에 둡니다.
 - JavaScript는 ES 모듈 방식으로 연결합니다. CSS는 JavaScript 진입 파일에서 import하여 Vite 빌드에 포함합니다.
